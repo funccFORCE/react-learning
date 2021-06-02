@@ -2,18 +2,17 @@ import React from "react"
 import productArray from "./productArray"
 import ProductInfo from "./ProductInfo" 
 
-const product= productArray.map(
-  function(item){
-    <ProductInfo name='{item.name}' price='{item.price}' description='{item.description}' />
-  } );
 
 function ProductList(){
  
+  const product= productArray.map( 
+    item =>  <ProductInfo key={item.id} name={item.name} price={item.price} description={item.description} />
+     );
+
    return(
-     <div>
-       <ProductInfo />
-       <ProductInfo />
-       <ProductInfo />
+     <div className='product-list'>
+       <h2 className='head'>Product Details</h2>
+       { product }
      </div>
    )
  

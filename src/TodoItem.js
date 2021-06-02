@@ -1,12 +1,11 @@
 import React from 'react';
 
-function TodoItem () {
+function TodoItem (props) {
 
-const itemStyle = {color:'#1e2417'}
   return(
-<div className='todo-item' style={itemStyle}>
-  <input type='checkbox'/>
-  <span >A task to be done</span> 
+<div className='todo-item text-left'>
+  <input type='checkbox' checked={props.check} />
+  <span>{props.text}</span> 
 </div>
   )
 }

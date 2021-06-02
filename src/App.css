@@ -41,8 +41,17 @@ body{
   text-align: center;
   background-color: #f5faed;
   font-family:'Poppins', sans-serif;
+  color:#1b4332;
 }
-
+.text-left{
+  text-align: left;
+}
+.head{
+  text-align: center;
+  color:#2d6a4f;
+  font-weight: bold;
+}
+/* todo list */
 .todo-list{
   display: inline-block; 
   margin: 25px;
@@ -57,6 +66,7 @@ body{
   line-height: 2.5;
   font-size: 1rem;
 }
+/* cards */
 .content-items{
   display: grid;
   grid-template-columns:50% 50%;
@@ -73,22 +83,34 @@ body{
 .content-card .content-img{
   height:auto;
   width:60%;
-  box-shadow: 2px 2px 4px  #ebf3d1, 2px 2px 4px #ccd5ae;
+  border: transparent;
+  border-radius: 2%;
+  box-shadow: 2px 2px 4px  #f0face, 2px 2px 4px #ccd5ae;
 }
 .content-card .content-title{
   text-decoration: underline;
 }
 
+/* jokes */
+
 .joke-list{
   margin-left: 2rem;
-  text-align: left;
-  font-size: 1.1rem;
-  font-weight: bold;
+  /* font-size: 1.1rem; */
   padding: 2rem 0;
-
 }
 
-
+/* products */
+.product-info{
+  padding: 2rem 0;
+}
+.product-info h3{
+  margin-left: 2rem;
+  margin-bottom: 0rem;
+}
+.product-info p{
+  margin-left: 2.5rem;
+  margin-top: 0rem; 
+}
 
 
 

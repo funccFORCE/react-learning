@@ -3,7 +3,8 @@ import Jokes from './Jokes'
 
 function JokeList(){
   return(
-    <div className="joke-list">
+    <div className="joke-list text-left">
+      <h2 className='head'>Jokes (please laugh)</h2>
       <Jokes question='Hear about the new restaurant called Karma?' 
         answer='There’s no menu: You get what you deserve.' />
       <Jokes

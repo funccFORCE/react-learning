@@ -3,12 +3,11 @@ import React from "react"
 import ContentCard from "./ContentCard"
 
 function ContentList() {
-  const styles={color:'rgb(71, 70, 70)' ,
-  fontWeight: '900'}
+  const styles={ fontWeight: '900'}
   return(
     <div className='content-list'>
       <h4>THE 93RD ACADEMY AWARDS</h4> 
-      <h2 style={styles}>Best Picture Nominees</h2>
+      <h2 className='head' style={styles}>Best Picture Nominations</h2>
       <div className='content-items'>
         <ContentCard 
          title='Nomadland' 

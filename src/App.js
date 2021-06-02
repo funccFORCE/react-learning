@@ -3,7 +3,7 @@ import './App.css';
 import TodoList from './TodoList'
 import ContentList from './ContentList' 
 import JockList from './JokeList'
-import ProductIList from './ProductList'
+import ProductList from './ProductList'
 
 
 function App (){
@@ -14,7 +14,7 @@ function App (){
     <ContentList />
     <JockList />
     <hr />
- 
+    <ProductList />
     </div>
   )
 }
