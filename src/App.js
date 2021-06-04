@@ -4,6 +4,7 @@ import TodoList from './TodoList'
 import ContentList from './ContentList' 
 import JockList from './JokeList'
 import ProductList from './ProductList'
+import Greeting from './Greeting'
 
 
 function App (){
@@ -15,7 +16,10 @@ function App (){
     <JockList />
     <hr />
     <ProductList />
+    <hr />
+    <Greeting />
     </div>
+    
   )
 }
 
