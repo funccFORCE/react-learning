@@ -5,7 +5,7 @@ import ContentList from './ContentList'
 import JockList from './JokeList'
 import ProductList from './ProductList'
 import Greeting from './Greeting'
-
+import Hooks from './Hooks'
 
 function App (){
   return (
@@ -18,6 +18,8 @@ function App (){
     <ProductList />
     <hr />
     <Greeting />
+    <hr />
+    <Hooks />
     </div>
     
   )
